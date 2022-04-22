@@ -1,0 +1,951 @@
+@media screen and (max-width: 1180px) and (min-width: 600px) {}
+
+@media screen and (max-width: 926px) and (min-width: 300px) {
+    .menu {
+        padding: 30px 20px 0px;
+    }
+    .menu .logo {
+        width: 100%;
+    }
+    .menu .register {
+        width: 100%;
+    }
+    .menu .items{
+        display: none;
+    }
+    .menu .items-mobile {
+        position: absolute;
+        display: block;
+        background-color: #343a48;
+        right: 0;
+        top: 0px;
+        transition: all .5s ease-out;
+        z-index: 9;
+        width: 100%;
+        text-align: right;
+        padding: 25px;
+        color: #fff;
+    }
+    .menu .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+    .popup.show .inner-popup {
+        margin: 0 6%;
+    }
+    .inner-popup.send-bitcoin .contents label {
+        font-size: 15px;
+    }
+    .inner-popup.send-bitcoin .contents input {
+        height: 44px;
+    }
+    .inner-popup.setting .contents .MuiBox-root {
+        width: 100% ;
+    }
+    .inner-popup.send-bitcoin .box .buttons .cancel,
+    .inner-popup.send-bitcoin .box .buttons .continue {
+        height: 42px;
+    }
+    .inner-popup.send-bitcoin .box .buttons .MuiButton-root{
+        font-size: 14px;
+    }
+    .inner-popup.setting .general .selects span,
+    .inner-popup.setting .general .selects .name {
+        font-size: 12px;
+    }
+    .inner-popup.setting .MuiTypography-root {
+        font-size: 13px;
+    }
+    .inner-popup.setting .MuiCheckbox-root .MuiSvgIcon-root {
+        width: 21px;
+        height: 21px;
+    }
+    .inner-popup.setting .contents .css-35zqo5-MuiTabs-root {
+        width: 86px;
+        min-width: 86px;
+    }
+    .inner-popup.setting {
+        width: 90%;
+    }
+    .inner-popup.setting .security label b {
+        font-size: 12px;
+    }
+    .inner-popup.user-change .contents label {
+        font-size: 14px;
+    }
+    .inner-popup.user-change .contents input {
+        height: 46px;
+    }
+    .inner-popup.user-change .contents .input1 .pro {
+        width: 34px;
+        height: 34px;
+        left: 9px;
+        top: 30px;
+    }
+    .inner-popup.user-change .contents .input1 .copy {
+        width: 17px;
+        height: 17px;
+        right: 11px;
+        bottom: 43px;
+    }
+    .inner-popup.user-change .contents .input1::before {
+        bottom: 40px;
+        right: 34px;
+        width: 1.1px;
+        height: 24px;
+    }
+    .inner-popup.user-change .contents .input2 span {
+        bottom: 38px;
+        left: 9px;
+        padding: 7px;
+        font-size: 10px;
+    }
+    .inner-popup.user-change .contents p,
+    .inner-popup.user-change .contents p b {
+        font-size: 12px;
+    }
+    .inner-popup.user-change .contents {
+        padding: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .home-page .page-wrapper {
+        margin-top: 50px;
+    }
+    .home-page .page-wrapper .intro {
+        flex-wrap: wrap;
+    }
+    .home-page .intro .contents {
+        width: 100%;
+    }
+    .home-page .intro .image {
+        width: 100%;
+    }
+    .home-page .intro .contents h1 {
+        width: 100%;
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+    .home-page .intro .contents p {
+        margin-bottom: 55px;
+        width: 100%;
+    }
+    .home-page .intro .contents .currency {
+        flex-wrap: wrap;
+    }
+    .home-page .intro .contents .currency .button-ylw {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .home-page .intro .contents .currency .buy,
+    .home-page .intro .contents .currency .spend {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .home-page .intro .image {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .home-page .intro .image img {
+        width: 60%;
+    }
+    .home-page .trade-wrapper .trad-stack {
+        flex-wrap: wrap;
+    }
+    .home-page .trade-wrapper .contents {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .home-page .trade-wrapper .contents .button-ylw {
+        width: 100%;
+    }
+    .home-page .trade-wrapper .contents:nth-child(2) {
+        width: 100%;
+    }
+    .home-page .trade-wrapper .contents:nth-child(1) {
+        width: 100%;
+    }
+    .home-page .page-wrapper .information {
+        flex-wrap: wrap;
+    }
+    .home-page .information .contents {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    /* .home-page .markets .chart {
+        display: none;
+    } */
+    .home-page .download-app .socials {
+        height: 660px;
+    }
+    .home-page .download-app .socials .contents {
+        width: 100%;
+        height: 210px;
+    }
+    .home-page .download-app .socials .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .home-page .download-app .socials .contents h1 {
+        font-size: 26px;
+        margin-bottom: unset;
+    }
+    .home-page .download-app .socials .contents p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .home-page .download-app .socials .apps {
+        width: 100%;
+    }
+    .home-page .download-app .socials .apps img {
+        width: 47%;
+        margin: 0 5px;
+    }
+    .footer .about-yona {
+        width: 100%;
+    }
+    .footer .about-yona .logo {
+        margin-bottom: 30px;
+    }
+    .footer .about-yona .info p {
+        width: 100%;
+        margin-top: 18px;
+    }
+    .footer .about-yona .email {
+        margin-bottom: 38px;
+    }
+    .footer .about-yona .email input {
+        width: 70%;
+    }
+    .footer .about-yona .email .button-ylw {
+        width: 30%;
+    }
+    .footer .about-yona .email .button-ylw {
+        width: 30%;
+    }
+    .footer .about-yona .email .button-ylw .MuiButton-root {
+        width: 100%;
+    }
+    .footer .contents:nth-child(2), .footer .contents:nth-child(3) {
+        width: 50%;
+    }
+    .footer .contents:nth-child(4) {
+        width: 50%;
+    }
+    .footer .contents:last-child {
+        width: 50%;
+    }
+    .footer .contents {
+        margin-bottom: 23px;
+    }
+    .yona-reserve {
+        margin-top: 4px;
+    }
+    .entrance .contents {
+        width: 100%;
+    }
+    .entrance.login {
+        margin-top: 66px;
+    }
+    .entrance-page .design {
+        bottom: -190px;
+    }
+    .entrance .contents {
+        width: 100%;
+    }
+    .entrance .contents .form .inputs label {
+        font-size: 16px;
+    }
+    .entrance .contents .form .checks span {
+        font-size: 12px;
+    }
+    .entrance .contents .form .button-ylw {
+        height: 46px;
+    }
+    .entrance .contents .form .button-ylw .MuiButton-root {
+        font-size: 17px;
+    }
+    .create-asset .contents {
+        width: 100%;
+        margin-top: 37px;
+    }
+    .btn-wrapper .button-ylw {
+        width: 100%;
+        height: 38px;
+        margin: 10px 0px;
+        cursor: pointer;
+    }
+    .create-asset .contents .items {
+        padding: 0 14px;
+    }
+    .create-asset .contents .items strong {
+        font-size: 15px;
+    }
+    .create-asset .contents .items p {
+        font-size: 12px;
+    }
+    .create-asset .contents .items input, .create-asset .contents .items textarea{
+        height: 44px;
+    }
+    .create-asset .contents .items .userFace {
+        padding: 14px;
+    }
+    .create-asset .contents .items .userFace .pic {
+        height: 53px;
+    }
+    .create-asset .contents .items .content p {
+        font-size: 12px;
+    }
+    .create-asset .contents .button-ylw {
+        height: 44px;
+    }
+    .create-asset .contents .button-ylw .MuiButton-root {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .invetsment .intro {
+        flex-wrap: wrap;
+    }
+    .invetsment .intro .content {
+        width: 100%;
+    }
+    .invetsment .intro .content h1 {
+        font-size: 27px;
+        margin-bottom: 26px;        
+    }
+    .invetsment .intro .content .balance {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .invetsment .intro .content .balance img {
+        width: 50px;
+    }
+    .invetsment {
+        margin-top: 50px;
+    }
+    .invetsment .intro {
+        justify-content: center;
+    }
+    .invetsment .intro .content .balance span {
+        width: 100%;
+        font-size: 14px;
+    }
+    .invetsment .intro .content .button-ylw {
+        height: 44px;
+        margin-top: 16px;
+    }
+    .invetsment .intro .content .button-ylw .MuiButton-root {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .invetsment .intro .intro-pic {
+        margin-top: 40px;
+    }   
+    .invetsment .information {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px 0 60px;
+    }
+    .invetsment .information .item {
+        width: 50%;
+        justify-content: center;
+        margin-bottom: 18px;
+    }
+    .invetsment .information .item img {
+        margin-right: 10px;
+    }
+    .invetsment .growth {
+        flex-wrap: wrap;
+    }
+    .invetsment .growth .title {
+        width: 100%;
+        border-right:unset;
+        margin-bottom: 11px;
+    }
+    .invetsment .growth .exchange-name {
+        width: 100%;
+        margin-top: 6px;
+    }
+    .invetsment .growth .chart {
+        width: 100%;
+        margin-top: 29px;
+    }
+    .invetsment .growth .chart img {
+        width: 100%;
+        height: 100%;
+    }
+    .income-chart .content {
+        padding: 0 22px;
+        flex-wrap: wrap;
+    }
+    .income-chart .content .generate {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .income-chart .content .income {
+        width: 100%;
+    }
+    .income-chart .generate .button-ylw {
+        height: 44px;
+    }
+    .income-chart .generate .button-ylw .MuiButton-root {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .income-chart .generate .total-balance {
+        margin: 34px 0 36px;
+    }
+    .income-chart .income .range {
+        margin-bottom: 20px;
+    }
+    .benefits .contents .item {
+        width: 100%;
+        margin-bottom: -18px;
+    }
+    .invetsment .speed-section .wrapper {
+        flex-wrap: wrap;
+    }
+    .invetsment .speed-section .content {
+        width: 100%;
+        padding-right: unset;
+    }
+    .invetsment .speed-section h1 {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+    .invetsment .speed-section p {
+        font-size: 12px;
+    }
+    .invetsment .speed-section .image {
+        width: 100%;
+        justify-content: center;
+    }
+    .landing {
+        margin-top: 30px;
+    }
+    .landing .intro {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .landing .intro .contents {
+        width: 100%;
+    }
+    .landing .intro .contents h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .landing .intro .contents p {
+        margin-bottom: 19px;
+    }
+    .landing .intro .image {
+        width: 100%;
+        justify-content: center;
+    }
+    .landing .deposits {
+        padding: 49px 8% 14px;
+    }
+    .landing .deposits .items {
+        margin-top: 58px;
+    }
+    .landing .deposits .title h1 {
+        font-size: 19px;
+    }
+    .landing .deposits .items .column.bank {
+        width: 100%;
+        justify-content: left;
+    }
+    .landing .deposits .items .column.bank h3 {
+        text-align: left;
+        margin-bottom: 18px;
+    }
+    .landing .deposits .items .column.bank li {
+        justify-content: left;
+        flex-direction: row-reverse;
+    }
+    .landing .deposits .items .column.bank ul li img {
+        margin-left: unset;
+        margin-right: 7px;
+    }
+    .landing .deposits .items .vs {
+        width: 100%;
+        margin: 0 0 18px;
+    }
+    .landing .deposits .items .column.stack{
+        width: 100%;
+    }
+    .income-chart .content .generate .image {
+        margin-top: 28px;
+    }
+    .income-chart .content p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .income-chart .content .income{
+        margin-top: 30px;
+    }
+    .income-chart .income .title {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    .income-chart .income .prices span {
+        font-size: 12px;
+    }
+    .income-chart .income .button-ylw {
+        height: 44px;
+        margin-top: 28px;
+    }
+    .landing .otc-service .contents h1 {
+        font-size: 23px;
+    }
+    .landing .otc-service .contents p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 32px;
+        line-height: 25px;
+    }
+    .landing .otc-service .contents ul {
+        margin-bottom: 40px;
+    }
+    .landing .otc-service .contents .button-ylw {
+        width: 100%;
+    }
+    .landing .information {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px 0 60px;
+        padding: unset;
+    }
+    .landing .information .item {
+        width: 50%;
+        justify-content: center;
+        margin-bottom: 18px;
+    }
+    .landing .information .item img {
+        margin-right: 10px;
+    }
+    .landing .opportunity h1 {
+        font-size: 22px;
+    }
+    .landing .opportunity p {
+        line-height: 24px;
+        font-size: 12px;
+    }
+    .landing .benefits-section {
+        margin: 60px 0;
+        padding: 53px 0;
+    }
+    .benefits .title h1 {
+        font-size: 22px;
+    }
+    .benefits p {
+        width: 100%;
+    }
+    .benefits .contents {
+        margin-top: 30px;
+    }
+    .landing .comments .cm-swiper .item {
+        padding: 40px 30px;
+    }
+    .landing .comments .cm-swiper img {
+        top: -35px;
+        left: 40px;
+    }
+    .landing .comments .cm-swiper p {
+        font-size: 12px;
+    }
+    .landing .crypto-stack p {
+        width: 100%;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .landing .crypto-stack {
+        margin: 70px 0;
+    }
+    .landing .watch-video{
+        padding: 72px 0 86px;
+    }
+    .landing .watch-video .funds {
+         flex-wrap: wrap;
+     }
+    .landing .watch-video .funds .contents{
+        width: 100%;
+    }
+    .landing .watch-video .funds .video-section {
+        width: 100%;
+    }
+    .landing .watch-video .funds .contents .item {
+        margin-bottom: 24px;
+    }
+    .landing .watch-video .funds .contents .item img {
+        width: 50px;
+        height: 50px;
+    }
+    .landing .watch-video .funds .item span {
+        font-size: 15px;
+    }
+    .landing .watch-video .funds .faq {
+        flex-wrap: wrap;
+        padding: unset;
+    }
+    .landing .watch-video .funds .faq span {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .landing .watch-video .funds .faq .button-ylw {
+        width: 100%;
+    }
+    .landing .media-section {
+        margin-top: 60px;
+    }
+    .landing .media-section .introduction {
+        margin-bottom: 36px;
+    }
+    .landing .media-section .introduction .title {
+        margin-bottom: 50px;
+    }
+    .landing .media-section .introduction .wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .landing .media-section .introduction .wrapper .item {
+        width: 44%;
+        margin: 0 10px 18px;
+    }
+    .landing .media-section .get-premium {
+        padding-top: 51px;
+    }
+    .landing .media-section .get-premium h1 {
+        font-size: 20px;
+    }
+    .landing .media-section .get-premium p {
+        font-size: 12px;
+    }
+    .landing .media-section .get-premium .mail {
+     flex-wrap: wrap;
+    }
+    .landing .media-section .get-premium .mail input {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .landing .media-section .get-premium .mail .button-ylw {
+        width: 100%;
+    }
+    .landing .referal {
+        margin-top: 70px;
+    }
+    .landing .referal .contact {
+        flex-direction: column-reverse;
+    }
+    .landing .referal .contact .image p {
+        margin-bottom: 43px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .landing .referal .contact .image {
+        width: 100%;
+        padding: unset;
+        border-right: unset;
+    }
+    .landing .referal .contact .form {
+        width: 100%;
+        padding: unset;
+    }
+    .invetsment.stacks .intro .content {
+        width: 100%;
+    }
+    .invetsment.stacks .intro .content .balance span {
+        font-size: 14px;
+    }
+    .invetsment.stacks .intro .content .balance b {
+        font-size: 18px;
+    }
+    .invetsment.stacks .intro .content .button-ylw {
+        width: 100%;
+    } 
+    .invetsment.stacks .income-chart {
+        margin: 0px 0 90px;
+    }
+    .stacking1 .contents .column {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .stacking1 .contents .column .balance,
+    .stacking1 .column .wrapper,
+    .stacking1 .column .referal,
+    .stacking1 .column .history,
+    .stacking1 .column .benefits {
+        border-radius: unset;
+    }
+    .stacking1 .column .income .chart .image-chart {
+        width: 100%;
+    }
+    .stacking1 .column .income .chart .image-chart img {
+        width: 91%;
+    }
+    .stacking1 .column .income .css-1h9z7r5-MuiButtonBase-root-MuiTab-root,
+    .stacking1 .column .income .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+        width: 33%;
+        padding: 10px; 
+        font-size: 10px;
+    }
+    .stacking1 .information {
+        padding: 22px 15px;
+    }
+    .stacking1 .information {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stacking1 .information .item {
+        width: 100%;
+    }
+    .stacking1 .information .arrow {
+        transform: rotate(90deg);
+    }
+    .stacking1.second .history {
+        margin-top: 10px;
+    }
+    .stacking1 .column .wrapper .social img {
+        margin-right: 16px;
+    }
+    .stacking1 .column .referal .info .item .spans {
+        margin-left: 9px;
+    }
+    .stacking1 .column .otc-service {
+        padding: 32px 15px;
+    }
+    .stacking1 .column .referal {
+        padding: 23px 12px 27px;
+    }
+    .stacking1 .column .balance-stack {
+        padding: 35px 11px;
+    }
+    .stacking1 .column .balance-stack .progress .circle-bg {
+        border: 7px solid #19202E;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 94%;
+    }
+    .stacking1 .column .balance-stack .progress {
+        margin-right: 18px;
+    }
+    .stacking1 .heading {
+        margin-bottom: 30px;
+    }
+    .stacking1.neutrino .column .balance {
+        padding: 35px 13px;
+    }
+    .stacking1.neutrino .column .balance .progress .circle-bg {
+        border: 7px solid #19202E;
+        width: 97%;
+        height: 95%;
+    }
+    .stacking1.neutrino .column .income .chart img {
+        width: 90%;
+    }
+    .wallet .table .heading {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: unset;
+    }
+    .wallet .table .heading .exchanges {
+        width: 100%;
+    }
+    .wallet .table .heading .exchanges span {
+        padding: unset;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .wallet .table .heading .duration {
+        width: 100%;
+        margin-top: 23px;
+        display: flex;
+        justify-content: center;
+    }
+    .wallet .table .balance .item {
+        width: 33%; 
+    }
+    .wallet .table .balance .item span {
+        text-align: center;
+    }
+    .wallet .table .chart .amount {
+        top: -50px;
+        left: 0px;
+    }
+    .wallet .items .exchange {
+        width: 100%;
+    }
+    .wallet .title {
+        justify-content: unset;
+        position: relative;
+    }
+    .wallet .items .exchange .access button {
+        width: 32%;
+    }
+    .wallet .title img {
+        margin-right: 10px;
+    }
+    .wallet .title span {
+        margin: 0 6px;
+    }
+    .wallet .title .dots {
+        position: absolute;
+        right: 0;
+    }
+    .wallet .items .add-exchange {
+        width: 100%;
+    }
+    .portfolio .inputs .saech {
+        width: 48%;
+    }
+    .portfolio .inputs .saech input {
+        width: 100%;
+    }
+    .portfolio .inputs .filter {
+        width: 48%;
+    }
+    .portfolio .chart .table {
+        overflow-x: auto;
+    }
+    .portfolio .chart .table .name {
+        width: 38%;
+    }
+    .portfolio .chart .table .balanc {
+        width: 130px;
+    }
+    .portfolio .chart .table .balanc,
+    .portfolio .chart .table .Yona {
+        width: 70px;
+        text-align: right;
+        display: flex;
+        justify-content: right;
+    }
+    .portfolio .chart .table .Yona {
+        margin: 0 10px;
+    }
+    .portfolio .chart .table .date {
+        margin: 0 10px;
+    }
+    .portfolio .chart .css-ahj2mt-MuiTypography-root {
+        overflow-x: auto;
+    }
+    .portfolio .chart .css-heg063-MuiTabs-flexContainer {
+        overflow-x: auto;
+    }
+    .portfolio .chart .table .main .dots {
+        right: 15px;
+        position: absolute;
+    }
+    .portfolio .chart .table .main tr {
+        padding: 2px 27px 2px 13px; 
+    }
+    .portfolio .design {
+        bottom: -60px;
+    }
+    .portfolio .chart {
+        justify-content: left;
+    }
+    .portfolio .chart {
+        overflow-x: auto;
+    }
+    .portfolio .chart .table .heading {
+        padding: 21px 14px;
+    }
+    .portfolio .chart .table .name {
+        width: 41%;
+    } 
+    .portfolio .chart .table .main .name img {
+        margin-right: 8px;
+        width: 25px;
+        height: 25px;
+    } 
+    .portfolio .chart .table .main .name span {
+        font-size: 13px;
+    }
+    .portfolio .chart .table .main .name .status{
+        width: 62px;
+        height: 20px;
+        font-size: 8px;
+        margin-left: 10px;
+    }
+    .portfolio .chart .table .main td {
+        width: unset !important;
+        margin: 0 10px;
+    }
+    .portfolio .chart .table .heading .name {
+        width: 25%;
+    }
+    .portfolio .chart .table .heading .balance {
+        width: 14%;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+    }
+    .portfolio .chart .table .heading .reserve {
+        width: 14%;
+        display: flex;
+        justify-content: left;
+    }
+    .portfolio .chart .table .heading .reserve {
+        width: 14%;
+        display: flex;
+        justify-content: left;
+    }
+    .portfolio .chart .table .heading .value {
+        width: 15%;
+        display: flex;
+        justify-content: left;
+    }
+    .portfolio .chart .table .heading .price {
+        width: 12%;
+        display: flex;
+        justify-content: left;
+    }
+    .portfolio .chart .table .heading .change {
+        display: flex;
+        justify-content: left;
+        width: 13%;
+    }
+    .portfolio .chart .table .heading .empty {
+        width: 9%;
+    }
+    .wallet .table .heading .exchanges {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .wallet .table .heading .exchanges span {
+        width: 29%;
+    }
+}
